@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"mongo-driver/x/mongo/driver/address"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
 )
 
 func TestPool(t *testing.T) {

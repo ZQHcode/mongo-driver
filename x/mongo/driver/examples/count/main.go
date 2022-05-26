@@ -13,11 +13,11 @@ import (
 
 	"flag"
 
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver/connstring"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/operation"
-	"mongo-driver/x/mongo/driver/topology"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 var uri = flag.String("uri", "mongodb://localhost:27017", "the mongodb uri to use")

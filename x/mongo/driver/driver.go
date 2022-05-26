@@ -1,10 +1,10 @@
-package driver // import "mongo-driver/x/mongo/driver"
+package driver // import "go.mongodb.org/mongo-driver/x/mongo/driver"
 
 import (
 	"context"
 
-	"mongo-driver/x/mongo/driver/address"
-	"mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
 )
 
 // Deployment is implemented by types that can select a server from a deployment.

@@ -12,8 +12,8 @@ import (
 	"path"
 	"testing"
 
-	"mongo-driver/mongo/options"
-	"mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 
 	"bytes"
 	"fmt"
@@ -21,13 +21,13 @@ import (
 
 	"os"
 
-	"mongo-driver/bson"
-	"mongo-driver/event"
-	"mongo-driver/internal/testutil"
-	testhelpers "mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/readpref"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
 )
 
 const cmTestsDir = "../data/command-monitoring"

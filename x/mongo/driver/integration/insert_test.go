@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/operation"
-	"mongo-driver/x/mongo/driver/topology"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 func TestInsert(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"mongo-driver/x/mongo/driver/auth"
-	"mongo-driver/x/mongo/driver/connstring"
-	"mongo-driver/x/mongo/driver/topology"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/auth"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 var host *string

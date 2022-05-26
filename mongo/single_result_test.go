@@ -11,7 +11,7 @@ import (
 	"errors"
 	"testing"
 
-	"mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 func TestSingleResult(t *testing.T) {

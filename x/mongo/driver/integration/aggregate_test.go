@@ -7,15 +7,15 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/event"
-	"mongo-driver/internal/testutil"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/operation"
-	"mongo-driver/x/mongo/driver/topology"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 func setUpMonitor() (*event.CommandMonitor, chan *event.CommandStartedEvent, chan *event.CommandSucceededEvent, chan *event.CommandFailedEvent) {

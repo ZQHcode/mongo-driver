@@ -9,8 +9,8 @@ package auth
 import (
 	"context"
 
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
 )
 
 // PLAIN is the mechanism name for PLAIN.

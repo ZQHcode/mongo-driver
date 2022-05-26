@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"mongo-driver/bson/bsonrw"
-	"mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 var defaultStructCodec = &StructCodec{

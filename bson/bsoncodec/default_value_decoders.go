@@ -16,10 +16,10 @@ import (
 	"strconv"
 	"time"
 
-	"mongo-driver/bson/bsonrw"
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 var defaultValueDecoders DefaultValueDecoders

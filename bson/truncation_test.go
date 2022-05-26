@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
 )
 
 type inputArgs struct {

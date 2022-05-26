@@ -16,11 +16,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/readconcern"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
 )
 
 type connectionStringTest struct {

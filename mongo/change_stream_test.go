@@ -14,15 +14,15 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
-	testhelpers "mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/options"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
 )
 
 var collectionStartingDoc = bsonx.Doc{

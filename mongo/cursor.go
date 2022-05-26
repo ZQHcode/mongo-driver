@@ -12,11 +12,11 @@ import (
 	"io"
 	"reflect"
 
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
 )
 
 // Cursor is used to iterate a stream of documents. Each document is decoded into the result

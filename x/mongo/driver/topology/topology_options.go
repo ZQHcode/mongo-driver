@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/auth"
-	"mongo-driver/x/mongo/driver/connstring"
-	"mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/auth"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
 )
 
 // Option is a configuration option for a topology.

@@ -16,12 +16,12 @@ import (
 	"sync/atomic"
 	"time"
 
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
 	"golang.org/x/sync/semaphore"
-	"mongo-driver/event"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/address"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/operation"
 )
 
 const minHeartbeatInterval = 500 * time.Millisecond

@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
 )
 
 type testBatchCursor struct {

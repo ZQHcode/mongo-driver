@@ -14,10 +14,10 @@ import (
 
 	"path"
 
-	"mongo-driver/bson"
-	"mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/options"
-	"mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 )
 
 const csTestsDir = "../data/change-streams"

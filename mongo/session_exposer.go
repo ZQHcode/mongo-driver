@@ -11,8 +11,8 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"mongo-driver/x/bsonx"
-	"mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
 )
 
 type SessionInfo struct {

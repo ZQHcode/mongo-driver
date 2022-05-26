@@ -9,10 +9,10 @@ package auth
 import (
 	"context"
 
-	"mongo-driver/bson"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
 )
 
 // SaslClient is the client piece of a sasl conversation.

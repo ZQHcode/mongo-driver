@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/address"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/wiremessage"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
 )
 
 var globalConnectionID uint64 = 1

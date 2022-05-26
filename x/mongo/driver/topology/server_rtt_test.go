@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
 )
 
 // Test case for all server selection rtt spec tests.

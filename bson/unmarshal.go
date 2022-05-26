@@ -9,9 +9,9 @@ package bson
 import (
 	"bytes"
 
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/bson/bsonrw"
-	"mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 // Unmarshaler is an interface implemented by types that can unmarshal a BSON

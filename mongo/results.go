@@ -9,8 +9,8 @@ package mongo
 import (
 	"fmt"
 
-	"mongo-driver/bson"
-	"mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
 )
 
 // BulkWriteResult holds the result of a bulk write operation.

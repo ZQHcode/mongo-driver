@@ -17,14 +17,14 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/internal/testutil"
-	"mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo"
-	"mongo-driver/mongo/options"
-	"mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 
+	"go.mongodb.org/mongo-driver/internal/testutil/israce"
 	"golang.org/x/net/context"
-	"mongo-driver/internal/testutil/israce"
 )
 
 var chunkSizeTests = []struct {

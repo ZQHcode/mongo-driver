@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/internal/testutil/helpers"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/uuid"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/uuid"
 )
 
 var consistent = true

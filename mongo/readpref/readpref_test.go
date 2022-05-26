@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	. "mongo-driver/mongo/readpref"
-	"mongo-driver/tag"
+	. "go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/tag"
 )
 
 func TestPrimary(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	testhelpers "mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/options"
-	"mongo-driver/x/mongo/driver/connstring"
+	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
 )
 
 type credential struct {

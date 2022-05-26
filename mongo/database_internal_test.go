@@ -15,17 +15,17 @@ import (
 	"os"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/internal/testutil"
-	"mongo-driver/mongo/options"
-	"mongo-driver/mongo/readconcern"
-	"mongo-driver/mongo/readpref"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx"
-	"mongo-driver/x/mongo/driver/connstring"
-	"mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
 )
 
 func createTestDatabase(t *testing.T, name *string, opts ...*options.DatabaseOptions) *Database {

@@ -17,9 +17,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	testhelpers "mongo-driver/internal/testutil/helpers"
-	"mongo-driver/x/mongo/driver/connstring"
-	"mongo-driver/x/mongo/driver/description"
+	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
 )
 
 const seedlistTestDir string = "../../../../data/initial-dns-seedlist-discovery/"

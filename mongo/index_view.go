@@ -14,17 +14,17 @@ import (
 	"strconv"
 	"time"
 
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/mongo/options"
-	"mongo-driver/mongo/readpref"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/operation"
-	"mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
 )
 
 // ErrInvalidIndexValue indicates that the index Keys document has a value that isn't either a number or a string.

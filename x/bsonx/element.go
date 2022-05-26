@@ -9,7 +9,7 @@ package bsonx
 import (
 	"fmt"
 
-	"mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 const validateMaxDepthDefault = 2048

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 func TestExtJSONValueWriter(t *testing.T) {

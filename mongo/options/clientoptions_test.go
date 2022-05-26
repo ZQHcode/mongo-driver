@@ -13,13 +13,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/event"
-	"mongo-driver/internal"
-	"mongo-driver/mongo/readconcern"
-	"mongo-driver/mongo/readpref"
-	"mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/internal"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
 )
 
 var tClientOptions = reflect.TypeOf(&ClientOptions{})

@@ -11,14 +11,14 @@ import (
 	"os"
 	"testing"
 
-	"mongo-driver/bson"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/event"
-	"mongo-driver/internal/testutil/helpers"
-	"mongo-driver/mongo/options"
-	"mongo-driver/mongo/readconcern"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 )
 
 var ccStarted *event.CommandStartedEvent

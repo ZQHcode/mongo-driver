@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/internal/testutil"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver/operation"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/internal/testutil"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
 )
 
 func TestCompression(t *testing.T) {

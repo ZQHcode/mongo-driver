@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"mongo-driver/bson"
-	"mongo-driver/x/bsonx"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/x/bsonx"
 )
 
 func TestDeleteResult_unmarshalInto(t *testing.T) {

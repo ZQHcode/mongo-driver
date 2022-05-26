@@ -11,17 +11,17 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/event"
-	"mongo-driver/mongo/readconcern"
-	"mongo-driver/mongo/readpref"
-	"mongo-driver/mongo/writeconcern"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/session"
-	"mongo-driver/x/mongo/driver/wiremessage"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/mongo/readconcern"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
 )
 
 const defaultLocalThreshold = 15 * time.Millisecond

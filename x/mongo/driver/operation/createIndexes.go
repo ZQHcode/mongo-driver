@@ -13,11 +13,11 @@ import (
 	"errors"
 	"fmt"
 
-	"mongo-driver/event"
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
-	"mongo-driver/x/mongo/driver/description"
-	"mongo-driver/x/mongo/driver/session"
+	"go.mongodb.org/mongo-driver/event"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
 )
 
 // CreateIndexes performs a createIndexes operation.

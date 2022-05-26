@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	. "mongo-driver/internal"
+	. "go.mongodb.org/mongo-driver/internal"
 )
 
 func TestSemaphore_Wait(t *testing.T) {

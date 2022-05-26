@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"mongo-driver/bson"
-	"mongo-driver/bson/bsoncodec"
-	"mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 // Collation allows users to specify language-specific rules for string comparison, such as

@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"time"
 
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 func wrapperKeyBSONType(key string) bsontype.Type {

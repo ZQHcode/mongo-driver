@@ -3,7 +3,7 @@ package driver
 import (
 	"errors"
 
-	"mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 // this is the amount of reserved buffer space in a message that the

@@ -3,8 +3,8 @@ package mongo
 import (
 	"context"
 
-	"mongo-driver/x/bsonx/bsoncore"
-	"mongo-driver/x/mongo/driver"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/x/mongo/driver"
 )
 
 // batchCursor is the interface implemented by types that can provide batches of document results.

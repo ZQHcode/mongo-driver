@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"mongo-driver/bson/bsontype"
-	"mongo-driver/bson/primitive"
-	"mongo-driver/x/bsonx/bsoncore"
+	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func TestValueReader(t *testing.T) {

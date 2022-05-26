@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"mongo-driver/x/bsonx/bsoncore"
-	. "mongo-driver/x/mongo/driver/auth"
-	"mongo-driver/x/mongo/driver/wiremessage"
+	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	. "go.mongodb.org/mongo-driver/x/mongo/driver/auth"
+	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
 )
 
 func TestCreateAuthenticator(t *testing.T) {
